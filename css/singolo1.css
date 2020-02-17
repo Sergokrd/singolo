@@ -1,0 +1,199 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Lato', sans-serif;
+background: color white;
+}
+
+header {
+width: 1020px;
+height: 89px;
+background-color: #2d303a;
+display: flex;
+}
+
+.header-logo {   
+text-transform: uppercase;
+font-size: 25px;
+line-height: 6px;
+color: #ffffff;
+font-weight: 700;
+text-align: left;
+margin-top: 41px;
+margin-left: 40px;
+margin-bottom: 35px;
+cursor: pointer;
+}
+
+.header-logo .logo { 
+color: #f06c64;
+margin-top: -6px;
+margin-left: 108px;
+margin-bottom: 35px;    
+}
+
+nav {
+position: absolute;
+margin-top: 38px; 
+margin-left: 593px; 
+font-family: 'Lato', sans-serif;
+}
+
+.menu li {
+display: table-cell; /*Горизонт*/
+}
+
+li::before {
+display: inline-block;
+content: ".";
+color: #494e62;
+position: absolute;
+margin-top: -3px;
+}
+
+li:first-child::before {
+display: none;
+}
+
+.menu a:hover {
+color: #f06c64; 
+text-decoration: underline #494e62;
+}
+
+.menu a {
+color: #ffffff;
+text-transform: uppercase;
+text-align: left;
+font-size: 12px;
+line-height: 6px;
+font-family: "Lato";
+font-weight: 700;
+padding: 0px 15px;
+text-decoration: none;
+}
+
+header-bottom {
+width: 1020px;
+height: 6px;
+background-color: #323746;
+display: flex;
+}
+
+main {
+width: 1020px;
+height: 594px;
+background-color: #f06c64;
+display: flex;
+}
+
+main-bottom {
+width: 1020px;
+height: 6px;
+background-color: #ea676b;
+display: flex;
+}
+
+.iphone-v {
+margin-left: 13px;
+margin-top: 53px;
+}
+
+.iphone-h {
+margin-top: 174px;
+margin-left: 66px;
+}
+
+.chev-le {
+margin-left: 40px;
+margin-right: auto;
+margin-top: 280px;
+}
+
+.chev-ra {
+margin-top: 280px;
+margin-left: auto;    
+margin-right: 40px;
+}
+
+footer {
+width: 1020px;
+height: 494px;
+background-color: #f2f2f2;
+display: flex;
+}
+
+.footer-h {
+letter-spacing: 0.3px;
+font-size: 30px;
+line-height: 20px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+margin-left: 40px;
+margin-top: 67px;
+width: 1020px;
+height: 88px;
+}
+
+.footer-text {
+letter-spacing: normal;
+width: 960px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+margin-top: 114px;
+margin-left: 40px;
+position: absolute;
+}
+
+.container {
+margin-top: 220px;
+margin-left: 40px;
+display: grid;
+grid-template-columns: 59px 219px 59px 219px 59px 219px;
+grid-template-rows: 59px 128px 59px 128px 59px 128px;
+position: absolute;
+grid-column-gap: 20px;
+grid-row-gap: 65px;
+}
+
+h2 {
+font-size: 18px;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+}
+
+.container p {
+font-size: 12px;
+line-height: 22px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+margin-top: 20px;
+}
+
+.item {
+}
+
+.item-text {
+}
+
+footer-bottom {
+width: 1020px;
+height: 6px;
+background-color: #ffffff;
+display: flex;
+}
+
