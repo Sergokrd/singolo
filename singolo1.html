@@ -2,84 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singolo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="singolo1.css"> <!--CSS-->
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> <!--Font Lato-->
+    <link rel="stylesheet" href="assets/fonts/font.css">
+    <link rel="stylesheet" href="singolo1.css">
 </head>
 <body>
-    <header>
-        <div class="header-logo"><p>singolo</p><p class="logo">*</p></div>
-        <nav>
-            <ul class="menu">
-            <li>
-                <a href="singolo1.html">Home</a>
-            </li>
-            <li>
-                <a href="singolo1.html">Services</a>
-            </li> 
-            <li>
-                <a href="singolo1.html">Portfolio</a>
-            </li> 
-            <li>
-                <a href="singolo1.html">About</a>
-            </li>
-            <li>
-                <a href="singolo1.html">Contact</a>
-            </li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="wrapper header_wrapper">
+            <div class="logo">
+                <h1>SINGOLO</h1>
+                <p>*</p>
+            </div>   
+            <nav class="header-navigation"> 
+                <ul class="navigation">
+                    <li> <a href="#">HOME</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <header-bottom></header-bottom><!--Вставка header-bottom по шаблону PSD-->
-    <main>
-        <a class="chev-le" href="singolo1.html"><img src="assets/chev-le.svg"></a>
-        <div class="iphone-v"><img src="assets/iphone-v.svg"></div>
-        <div class="iphone-h"><img src="assets/iphone-h.svg"></div>
-        <a class="chev-ra" href="singolo1.html"><img src="assets/chev-ra.svg"></a>
-    </main>
-    <main-bottom></main-bottom><!--Вставка header-bottom по шаблону PSD-->
-    <footer>
-        <div class="footer-h"><h1>Our Services</h1></div>
-        <div class="footer-text"><p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p></div>
-        <div class="container">
-        <div class="item">
-            <img src="assets/pen.svg">
+    <section class="wrapper header-footer"></section> <!--вставка под header по шаблону-->
+    <section class="wrapper slider">
+            <a class="chev-le" href="#"><img src="assets/image/chev-le.svg"></a>
+            <div class="iphone-v"><img src="assets/image/iphone-v.svg"></div>
+            <div class="iphone-h"><img src="assets/image/iphone-h.svg"></div>
+            <a class="chev-ra" href="#"><img src="assets/image/chev-ra.svg"></a>
+    </section>
+    <section class="wrapper slider-footer"></section><!--вставка под slider по шаблону-->
+    <section class="wrapper our-services">
+        <div class="wrapper">
+                <h2 class="h2-services">Our Services</h2>
+                <p class="text-center">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <div class="loyout_3_column">
+                <div class="icon_loyout">
+                    <img src="assets/image/pen.svg" alt="pen">
+                </div>
+                <div class="text_loyout">
+                    <h3>Custom Design</h3>
+                    <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                </div>
+                <div class="icon_loyout">
+                    <img src="assets/image/buld.svg" alt="buld">
+                </div>
+                <div class="text_loyout">
+                    <h3>Inovative Ideas</h3>
+                    <p>Quisque luctus, quam eget molestie com-modo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                </div>
+                <div class="icon_loyout">
+                    <img src="assets/image/heart.svg" alt="heart">
+                </div>
+                <div class="text_loyout">
+                    <h3>Love Is The Answer</h3>
+                    <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>   
+                </div>
+                <div class="icon_loyout">
+                    <img src="assets/image/phone.svg" alt="phone">
+                </div>
+                <div class="text_loyout">
+                    <h3>Responsive Layout</h3>
+                    <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Prae-sent elit leo.</p>    
+                </div>
+                <div class="icon_loyout">
+                    <img src="assets/image/bubble.svg" alt="bubble">
+                </div>
+                <div class="text_loyout">
+                    <h3>24 / 7 Support</h3>
+                    <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellen-tesque egestas venenatis lorem .</p>    
+                </div>
+                <div class="icon_loyout">
+                    <img src="assets/image/star.svg" alt="star">
+                </div>
+                <div class="text_loyout">
+                    <h3>Feel Like A Star</h3>
+                    <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                </div>
+                </div>
         </div>
-        <div class="item-text">
-            <h2>Custom Design</h2>
-            <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p></div>
-        <div class="item">
-            <img src="assets/buld.svg">
-        </div>
-        <div class="item-text">
-            <h2>Inovative Ideas</h2>
-            <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem</p></div>
-        <div class="item">
-            <img src="assets/heart.svg">
-        </div>
-        <div class="item-text">
-            <h2>Love Is The Answer</h2>
-            <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p></div>
-        <div class="item">
-            <img src="assets/phone.svg">
-        </div>
-        <div class="item-text">
-            <h2>Responsive Layout</h2>
-            <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo</p></div>
-        <div class="item">
-            <img src="assets/bubble.svg">
-        </div>
-        <div class="item-text">
-            <h2>24 / 7 Support</h2>
-            <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestar venenatis lorem.</p></div>
-        <div class="item">
-            <img src="assets/star.svg">
-        </div>
-        <div class="item-text">
-            <h2>Feel Like A Star</h2>
-            <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p></div>
-        </div>
-    </footer>
-        <footer-bottom></footer-bottom><!--Вставка header-bottom по шаблону PSD-->
-    </body>
-</html> 
+    </section>
+    <section class="wrapper our-services-footer"></section>
+</body>
+</html>

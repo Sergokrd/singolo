@@ -1,199 +1,193 @@
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
+    }
+.wrapper {
+    max-width: 1020px;
+ }
+
+.header {
+    max-width: 1020px;
+    background-color: #2d303a;
+    height: 89px;
+}
+.header_wrapper {
+    max-width: 1020px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
 }
 
-body {
-font-family: 'Lato', sans-serif;
-background: color white;
+.logo {
+    display: flex;
+    margin-left: 38px;
+    margin-top: 30px;
 }
 
-header {
-width: 1020px;
-height: 89px;
-background-color: #2d303a;
-display: flex;
+h1 {
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
 }
 
-.header-logo {   
-text-transform: uppercase;
-font-size: 25px;
-line-height: 6px;
-color: #ffffff;
-font-weight: 700;
-text-align: left;
-margin-top: 41px;
-margin-left: 40px;
-margin-bottom: 35px;
-cursor: pointer;
+.logo p {
+    font-size: 25px;
+    line-height: 6px;
+    color: #f06c64;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+}
+.header-navigation {
+    position: relative;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+.navigation li {
+    display: inline-block;
+    
 }
 
-.header-logo .logo { 
-color: #f06c64;
-margin-top: -6px;
-margin-left: 108px;
-margin-bottom: 35px;    
+.navigation  {
+list-style: none;
 }
 
-nav {
-position: absolute;
-margin-top: 38px; 
-margin-left: 593px; 
-font-family: 'Lato', sans-serif;
+/*убераем подчеркивание отступ между ссылками */
+.navigation a {
+    text-decoration: none;
+    padding: 0px 12px;  
+    display: block;
+    color:  #ffffff;
+    font-family: 'Lato';
+    font-size: 12px;
+    line-height: 6px;
+    font-weight: 700;
 }
 
-.menu li {
-display: table-cell; /*Горизонт*/
+/*меняет цвет при наведении*/
+.navigation a:hover {
+    color: #f06c64; 
+    text-decoration: underline #494e62;
 }
 
-li::before {
-display: inline-block;
-content: ".";
-color: #494e62;
-position: absolute;
-margin-top: -3px;
+/*точки между ссылками в меню*/
+li::before {    
+    display: inline-block;
+    content: ".";
+    color: #494e62;
+    position: absolute;
+    margin-top: -10px;
 }
 
-li:first-child::before {
-display: none;
+/*не показывать первый символ */
+li:first-child::before { 
+    display: none;
 }
 
-.menu a:hover {
-color: #f06c64; 
-text-decoration: underline #494e62;
+.header-footer {
+    height: 6px;
+    background-color: #323746;
+}
+.slider {
+    max-width: 1020px;
+    height: 594px;
+    background-color:  #f06c64;
+    display: flex;
 }
 
-.menu a {
-color: #ffffff;
-text-transform: uppercase;
-text-align: left;
-font-size: 12px;
-line-height: 6px;
-font-family: "Lato";
-font-weight: 700;
-padding: 0px 15px;
-text-decoration: none;
+.slider-footer {
+    height: 6px;
+    background-color: #ea676b;
 }
 
-header-bottom {
-width: 1020px;
-height: 6px;
-background-color: #323746;
-display: flex;
+.our-services {
+    height: 495px;
+    background-color: #f2f2f2;
 }
 
-main {
-width: 1020px;
-height: 594px;
-background-color: #f06c64;
-display: flex;
+.our-services-footer {
+    height: 6px;
+    background-color: #ffffff;
 }
 
-main-bottom {
-width: 1020px;
-height: 6px;
-background-color: #ea676b;
-display: flex;
+.h2-services {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 67px;
+    padding-left: 40px;
+}
+
+.text-center {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    padding-top: 28px;
+    padding-left: 40px;
+    max-width: 940px;
+    height: 57px;
+}
+
+.loyout_3_column  {
+    display: grid;
+    grid-template-columns: 59px 219px 59px 219px 59px 219px;
+    grid-template-rows: 59px 128px 59px 128px 59px 128px;
+    position: absolute;
+    grid-column-gap: 21px;
+    grid-row-gap: 65px;
+    padding-top: 49px;
+    padding-left: 40px;
+    max-width: 940px;
+    
+} 
+
+h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}    
+
+.text_loyout p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-top: 9px;
 }
 
 .iphone-v {
-margin-left: 13px;
-margin-top: 53px;
-}
-
-.iphone-h {
-margin-top: 174px;
-margin-left: 66px;
-}
-
-.chev-le {
-margin-left: 40px;
-margin-right: auto;
-margin-top: 280px;
-}
-
-.chev-ra {
-margin-top: 280px;
-margin-left: auto;    
-margin-right: 40px;
-}
-
-footer {
-width: 1020px;
-height: 494px;
-background-color: #f2f2f2;
-display: flex;
-}
-
-.footer-h {
-letter-spacing: 0.3px;
-font-size: 15px;
-line-height: 20px;
-color: #666d89;
-font-family: "Lato";
-font-weight: 900;
-text-align: left;
-margin-left: 40px;
-margin-top: 67px;
-width: 1020px;
-height: 88px;
-}
-
-.footer-text {
-letter-spacing: normal;
-width: 960px;
-height: 57px;
-font-size: 18px;
-line-height: 30px;
-color: #767e9e;
-font-family: "Lato";
-font-weight: 300;
-text-align: left;
-margin-top: 114px;
-margin-left: 40px;
-position: absolute;
-}
-
-.container {
-margin-top: 220px;
-margin-left: 40px;
-display: grid;
-grid-template-columns: 59px 219px 59px 219px 59px 219px;
-grid-template-rows: 59px 128px 59px 128px 59px 128px;
-position: absolute;
-grid-column-gap: 20px;
-grid-row-gap: 65px;
-}
-
-h2 {
-font-size: 18px;
-line-height: 18px;
-color: #666d89;
-font-family: "Lato";
-font-weight: 900;
-text-align: left;
-}
-
-.container p {
-font-size: 12px;
-line-height: 22px;
-color: #767e9e;
-font-family: "Lato";
-font-weight: 400;
-text-align: left;
-margin-top: 20px;
-}
-
-.item {
-}
-
-.item-text {
-}
-
-footer-bottom {
-width: 1020px;
-height: 6px;
-background-color: #ffffff;
-display: flex;
-}
-
+    margin-left: 13px;
+    margin-top: 53px;
+    }
+    
+    .iphone-h {
+    margin-top: 174px;
+    margin-left: 66px;
+    }
+    
+    .chev-le {
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 280px;
+    }
+    
+    .chev-ra {
+    margin-top: 280px;
+    margin-left: auto;    
+    margin-right: 40px;
+    }
